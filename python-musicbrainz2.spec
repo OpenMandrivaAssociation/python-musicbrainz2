@@ -1,6 +1,6 @@
 %define name python-musicbrainz2
 %define version 0.5.0
-%define release %mkrel 1
+%define release %mkrel 
 
 Summary: An interface to the MusicBrainz XML web service
 Name: %{name}
@@ -17,20 +17,13 @@ BuildArch: noarch
 Requires: python-ctypes libdiscid
 
 %description
-An interface to the MusicBrainz XML web service
-===============================================
-
 python-musicbrainz2 provides simple, object oriented access to the
-MusicBrainz web service. It is useful for applications like CD rippers,
+MusicBrainz XML web service. It is useful for applications like CD rippers,
 taggers, media players, and other tools that need music metadata.
 
-The MusicBrainz Project (see http://musicbrainz.org) collects music
-metadata and is maintained by its large and constantly growing user
+The MusicBrainz Project collects music metadata and is maintained by its large
+and constantly growing user
 community.
-
-Most of this package works on python-2.3 and later without further
-dependencies. If you want to generate DiscIDs from an audio CD in the
-drive, you need ctypes (already included in python-2.5) and libdiscid.
 
 
 %prep
