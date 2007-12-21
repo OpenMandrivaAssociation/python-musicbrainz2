@@ -10,6 +10,7 @@ Url: http://musicbrainz.org/products/python-musicbrainz2/
 Source0: http://musicbrainz.org/~matt/%{name}-%{version}.tar.bz2
 License: BSD
 Group: Development/Python
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel
 BuildRequires: python-ctypes
 BuildArch: noarch
