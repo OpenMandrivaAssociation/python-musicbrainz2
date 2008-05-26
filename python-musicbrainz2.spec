@@ -1,13 +1,13 @@
 %define name python-musicbrainz2
-%define version 0.5.0
-%define release %mkrel 2
+%define version 0.6.0
+%define release %mkrel 1
 
 Summary: An interface to the MusicBrainz XML web service
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Url: http://musicbrainz.org/products/python-musicbrainz2/
-Source0: http://musicbrainz.org/~matt/%{name}-%{version}.tar.bz2
+Source0: http://musicbrainz.org/~matt/%{name}-%{version}.tar.gz
 License: BSD
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
