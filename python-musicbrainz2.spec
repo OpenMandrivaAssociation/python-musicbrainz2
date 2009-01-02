@@ -1,6 +1,6 @@
 %define name python-musicbrainz2
 %define version 0.6.0
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: An interface to the MusicBrainz XML web service
 Name: %{name}
@@ -11,10 +11,13 @@ Source0: http://musicbrainz.org/~matt/%{name}-%{version}.tar.gz
 License: BSD
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: python-devel
+%{py_requires -d}
+BuildRequires: python-setuptools
 BuildRequires: python-ctypes
 BuildArch: noarch
 Requires: python-ctypes libdiscid
+Obsoletes: python-musicbrainz < 2.1.5-5
+Provides: python-musicbrainz
 
 %description
 python-musicbrainz2 provides simple, object oriented access to the
