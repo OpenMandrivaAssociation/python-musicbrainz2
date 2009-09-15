@@ -1,6 +1,6 @@
 %define name python-musicbrainz2
 %define version 0.6.0
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: An interface to the MusicBrainz XML web service
 Name: %{name}
