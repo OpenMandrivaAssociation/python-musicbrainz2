@@ -3,7 +3,7 @@ Summary: An interface to the MusicBrainz XML web service
 
 Name: python-musicbrainz2
 Version: 0.7.4
-Release: 1
+Release: 2
 Url: http://musicbrainz.org/products/python-musicbrainz2/
 Source0: http://ftp.musicbrainz.org/pub/musicbrainz/python-musicbrainz2/%{name}-%{version}.tar.gz
 License: BSD
